@@ -53,7 +53,6 @@ Publish the website in the LocalHost.
 .insight {
     color: navy;
     font-weight: bold;
-    text-align: center;
     font-size: larger;
     margin-bottom: 15px;
 }
@@ -99,23 +98,29 @@ Publish the website in the LocalHost.
     text-align: left;
     font-style: italic;
     margin-top: 30px;
+    position: relative; 
+    bottom: -150px;   
 }
 
 .pub {
     font-size: medium;
     text-align: right;
-    color: darkorange;
-    margin-top: 50px;
+    color: #000000;
+    position: relative;
+    bottom: -285px;
 }
 .author {
-    display: block;
-    position: absolute;
-    bottom: 130px;
-    right: 20px;
+    position: relative;
+    top:130px;
+    width: 100px;
     color: darkred;
     font-family: 'Georgia', serif;
     font-size: medium;
-    text-align: right;
+}
+
+.booktitle {
+    position: relative;
+    relativ
 }
 
 </style>
@@ -131,22 +136,29 @@ Publish the website in the LocalHost.
     <div class="id">
         <hr class="hrstyle">
     </div>
+    
+    <div class="end">
+        
+    </div>
     <div class="ed"><b>First Edition</b></div>
-    <div class="pub">SEC Publications</div>
     <div class=""></div>
     <div class="mypic">
         <img src="image.png" alt="Author's Picture">
-        <div class="author"><b> WRITTEN BY M KRISHNAKUMARAN</b></div>
     </div>
+    <div class="pub">SEC Publications</div>
+
+    <div class="author"><b> WRITTEN BY M KRISHNAKUMARAN</b></div>
+
 </div>
 </body>
 </html>
+
 ```
 
 
 
 ## OUTPUT:
-![alt text](<Screenshot (32).png>)
+![alt text](<Screenshot (33).png>)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
